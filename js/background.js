@@ -7,7 +7,6 @@ const images = [
 
 
 const changeImge = images[Math.floor(Math.random()) * images.length];
-console.log(changeImge)
 const bgImge = document.createElement("img");
 
 bgImge.src = `img/${changeImge}`;
